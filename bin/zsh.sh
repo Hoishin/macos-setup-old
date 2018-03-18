@@ -2,5 +2,5 @@
 
 DIRNAME="$( cd "$( dirname "$0" )"; pwd -P )"
 
-cp $DIRNAME/../links/.zshrc  ~/.zshrc
+cp $DIRNAME/../externals/.zshrc  ~/.zshrc
 chsh -s $( which zsh )
