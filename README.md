@@ -10,26 +10,15 @@ bash setup.sh
 
 ### iTerm2 Setup
 
-> The script above installs Hyper. If you want to use iTerm2, you have to manually configure.
+> iTerm2 has horrible support for programmatic configuration. Use GUI to configure.
 
-1. Install iTerm2
+1. Open iTerm2 preference (`⌘` + `,`)
 
-```sh
-brew cask install iterm2
-```
+2. In **Profile > General > Working Directory**, choose **Advanced Configuration** and click **Edit**.
 
-2. Install Snazzy theme
+3. Choose **Working Directory for New Tabs > Reuse previous...** and **Working Directory for New Split Panes > Reuse previous...**.
 
-```sh
-curl -sL https://github.com/sindresorhus/iterm2-snazzy/raw/master/Snazzy.itermcolors > /tmp/Snazzy.itermcolors
-open /tmp/Snazzy.itermcolors
-```
-
-3. Open iTerm2 preference (`⌘` + `,`)
-
-4. In **Profile > General > Working Directory**, choose **Advanced Configuration** and click **Edit**. Choose **Working Directory for New Tabs > Reuse previous...** and **Working Directory for New Split Panes > Reuse previous...**.
-
-5. In **Profile > Colors > Color Presets...**, choose **Snazzy**.
+4. In **Profile > Colors > Color Presets...**, choose **Snazzy**.
 
 ## Notes
 
