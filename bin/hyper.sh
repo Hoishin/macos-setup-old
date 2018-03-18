@@ -2,4 +2,4 @@
 
 DIRNAME="$( cd "$( dirname "$0" )"; pwd -P )"
 
-cp $DIRNAME/../exports/.hyper.js ~/.hyper.js
+cp $DIRNAME/../exports/.hyperrc ~/.hyper.js
