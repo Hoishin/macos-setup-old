@@ -1,2 +1,2 @@
-$ ln ~/.hyper.js .hyper.js
-$ ln ~/.zshrc .zshrc
+$ cp ~/.hyper.js .hyper.js
+$ cp ~/.zshrc .zshrc
