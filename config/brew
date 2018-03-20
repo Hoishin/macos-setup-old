@@ -3,3 +3,5 @@ zsh-syntax-highlighting
 rbenv
 mas
 yarn --without-node
+ctags
+
