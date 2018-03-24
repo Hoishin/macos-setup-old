@@ -25,3 +25,6 @@ np
 release-it
 serverless
 dts-gen
+bower
+nodecg-cli
+rethinkdb
