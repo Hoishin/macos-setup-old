@@ -4,4 +4,4 @@ rbenv
 mas
 yarn --without-node
 ctags
-
+sbt
