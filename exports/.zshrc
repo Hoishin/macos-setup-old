@@ -32,5 +32,8 @@ eval "$(rbenv init -)"
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /Users/kei/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/kei/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
 
+# Added by n-install (see http://git.io/n-install-repo)
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
+
 # MUST BE AT THE END
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

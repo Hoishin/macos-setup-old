@@ -1,7 +1,8 @@
-pyenv
-zsh-syntax-highlighting
-rbenv
-mas
-yarn --without-node
 ctags
+mas
+pyenv
+rbenv
+rethinkdb
 sbt
+yarn --without-node
+zsh-syntax-highlighting
