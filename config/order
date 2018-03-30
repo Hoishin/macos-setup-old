@@ -1,9 +1,9 @@
 brew
-n
-yarn
 mas
 defaults
 misc
 zsh
 iterm2
 hyper
+node
+yarn
