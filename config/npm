@@ -2,6 +2,7 @@
 ava
 bower
 clipboard-cli
+del-cli
 dts-gen
 esdoc
 find-process
@@ -10,6 +11,7 @@ get-port-cli
 internal-ip-cli
 jsdoc
 lock-cli
+make-dir-cli
 nodecg-cli
 np
 npm-check
