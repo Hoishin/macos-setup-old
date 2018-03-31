@@ -25,14 +25,5 @@ fi
 # rbenv
 eval "$(rbenv init -)"
 
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /Users/kei/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/kei/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/kei/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/kei/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
-
-export N_PREFIX="$HOME/n"
-
 # MUST BE AT THE END
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

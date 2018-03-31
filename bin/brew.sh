@@ -1,10 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-DIRNAME="$( cd "$( dirname "$0" )"; pwd -P )"
+DIRNAME=$( cd $( dirname $0 ) && pwd -P )
 CONFIG_DIR=$DIRNAME/../config
 
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew update
+curl -L https://github.com/Homebrew/install/raw/master/install | /usr/bin/ruby
+brew install $( cat $CONFIG_DIR/brew )
 brew tap caskroom/cask
 brew cask install $( cat $CONFIG_DIR/brew-cask )
-cat $CONFIG_DIR/brew | xargs -L1 brew install

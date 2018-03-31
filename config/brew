@@ -3,6 +3,4 @@ mas
 pyenv
 rbenv
 rethinkdb
-sbt
-yarn --without-node
 zsh-syntax-highlighting

@@ -3,7 +3,7 @@
 ## Usage
 
 ```sh
-curl -L https://github.com/Hoishin/macos-setup/raw/master/run.sh | bash
+curl -L https://github.com/Hoishin/macos-setup/raw/master/install.sh | bash
 ```
 
 ## Additional Stuff
