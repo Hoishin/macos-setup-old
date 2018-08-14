@@ -25,5 +25,8 @@ fi
 # rbenv
 eval "$(rbenv init -)"
 
+# alias
+alias ctags="`brew --prefix`/bin/ctags"
+
 # MUST BE AT THE END
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

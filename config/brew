@@ -4,3 +4,4 @@ pyenv
 rbenv
 rethinkdb
 zsh-syntax-highlighting
+cloc
